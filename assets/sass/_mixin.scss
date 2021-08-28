@@ -73,6 +73,12 @@
     }
 }
 
+@each $value, $glyph in $theme-colors-light {
+    .bg-#{$value} {
+        background: $glyph;
+    }
+}
+
 @each $value, $glyph in $width-height {
     .w-#{$value} {
         width: $glyph !important;

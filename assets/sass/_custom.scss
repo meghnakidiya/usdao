@@ -144,6 +144,22 @@ a {
     max-width: 200px;
 }
 
+.check-circle {
+    border-radius: 50%;
+}
+.btn-white {
+    background: #fff;
+    border: 1px solid #fff;
+    transition: .3s ease;
+    &:hover {
+        background: transparent;
+        border: 1px solid #fff;
+        color: #fff !important;
+    }
+}
+
+
+
 ::-webkit-scrollbar {
     width: 10px; //Needed scrollbar thumb width to be 7px, so had to define whole scrollbar to be 7px wide.
   };
@@ -159,3 +175,4 @@ a {
     border-right: 4px solid transparent;
     background-clip: padding-box;
   };
+
