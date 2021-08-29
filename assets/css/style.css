@@ -11471,6 +11471,10 @@ textarea.form-control-lg {
   font-size: 50px;
 }
 
+.fs-55 {
+  font-size: 55px;
+}
+
 .fs-47 {
   font-size: 47px;
 }
@@ -11485,6 +11489,10 @@ textarea.form-control-lg {
 
 .fs-42 {
   font-size: 42px;
+}
+
+.fs-70 {
+  font-size: 70px;
 }
 
 .fs-82 {
@@ -11995,6 +12003,30 @@ textarea.form-control-lg {
   height: 40px !important;
 }
 
+.w-95 {
+  width: 95px !important;
+}
+
+.h-95 {
+  height: 95px !important;
+}
+
+.w-100px {
+  width: 100px !important;
+}
+
+.h-100px {
+  height: 100px !important;
+}
+
+.w-150 {
+  width: 150px !important;
+}
+
+.h-150 {
+  height: 150px !important;
+}
+
 .h-60vh {
   height: 60vh !important;
 }
@@ -12045,6 +12077,11 @@ a {
 .flex-center {
   justify-content: center;
   align-items: center;
+}
+
+.flex-start {
+  justify-content: start;
+  align-items: flex-start;
 }
 
 .form-control-solid {
@@ -12116,7 +12153,7 @@ a {
 }
 
 .cookies {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -12189,6 +12226,10 @@ a {
   background: transparent;
   border: 1px solid #fff;
   color: #fff !important;
+}
+
+.form-control::placeholder {
+  color: #d9d9d9;
 }
 
 ::-webkit-scrollbar {

@@ -20,6 +20,10 @@ a {
     justify-content: center;
     align-items: center;
 }
+.flex-start {
+    justify-content: start;
+    align-items: flex-start;
+}
 .form-control-solid {
     background: $gray-300;
     border: none;
@@ -89,7 +93,7 @@ a {
 }
 
 .cookies {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -157,7 +161,11 @@ a {
         color: #fff !important;
     }
 }
-
+.form-control {
+    &::placeholder {
+        color: $gray-400;
+    }
+}
 
 
 ::-webkit-scrollbar {
