@@ -1,0 +1,124 @@
+@media (max-width: 1680px) {
+    .img-box {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 1440px) {
+    @each $value, $glyph in $font-size {
+        @if $glyph > 14px {
+            .fs-#{$value} {
+                font-size: $glyph - 4px;
+            }
+        } @else {
+            .fs-#{$value} {
+                font-size: $glyph - 2px;
+            }
+        }
+
+        @if $glyph >= 70px {
+            .fs-#{$value} {
+                font-size: $glyph - 10px;
+            }
+        }
+
+        @if $glyph >= 35px {
+            .fs-#{$value} {
+                font-size: $glyph - 9px;
+            }
+        }
+        
+    }
+}
+
+@media (max-width: 1200px) {
+    @each $value, $glyph in $font-size {
+        @if $glyph > 14px {
+            .fs-#{$value} {
+                font-size: $glyph - 5px !important;
+            }
+        } @else {
+            .fs-#{$value} {
+                font-size: $glyph - 4px !important;
+            }
+        }
+
+        @if $glyph >= 70px {
+            .fs-#{$value} {
+                font-size: $glyph - 20px !important;
+            }
+        }
+
+        @if $glyph >= 95px {
+            .fs-#{$value} {
+                font-size: $glyph - 20px !important;
+            }
+        }
+        
+    }
+    .h-50 {
+        height: 50px !important;
+    }
+    .h-lg-40 {
+        height: 40px !important;
+    }
+    .circle-icon-wrap {
+        display: flex;
+        justify-content: center;
+    }
+    .circle-icon {
+        left: 60px;
+    }
+    .icon-text {
+        text-align: center;
+    }
+    .left-text {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 992px) {
+    @each $value, $glyph in $font-size {
+        @if $glyph > 14px {
+            .fs-#{$value} {
+                font-size: $glyph - 10px !important;
+            }
+        } @else {
+            .fs-#{$value} {
+                font-size: $glyph - 4px !important;
+            }
+        }
+
+        @if $glyph >= 70px {
+            .fs-#{$value} {
+                font-size: $glyph - 20px !important;
+            }
+        }
+
+        @if $glyph >= 95px {
+            .fs-#{$value} {
+                font-size: $glyph - 30px !important;
+            }
+        }
+        
+    }
+    @each $value, $glyph in $line-height {
+        @if $glyph > 100px {
+            .lh-#{$value} {
+                line-height: $glyph - 35px;
+            }
+        }
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+    }
+    .circle-icon {
+        width: 50px;
+        left: 50px;
+    }
+    .px-80 {
+        padding: 0 1rem;
+    }
+}

@@ -133,15 +133,14 @@ a {
     }
 }
 .vertical-tab-content-container {
-    overflow-y: scroll;
     height: 100%;
     overflow-x: hidden;
 }
 
 .img-box {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
     background: $gray-500;
 }
 .tabs-card {
@@ -169,7 +168,9 @@ a {
 .separator-white {
     border: 1px solid #fff;
 }
-
+.cases-wrap {
+    height: 70vh;
+}
 
 ::-webkit-scrollbar {
     width: 10px; //Needed scrollbar thumb width to be 7px, so had to define whole scrollbar to be 7px wide.
